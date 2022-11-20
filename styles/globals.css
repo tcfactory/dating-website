@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  background: black;
+  line-height: 1.1;
+  letter-spacing: 0em;
+}
+
+.not-found {
+  text-align: center;
+}
+
+.not-found a {
+  color: fuchsia;
+  text-decoration: underline;
+}
+
+.legal-info article section {
+    display: block;
+    position: relative;
+    margin-top: 1em;
+    counter-increment: section-counter;
+    padding-left: 2rem;
+}
