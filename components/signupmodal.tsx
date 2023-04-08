@@ -10,12 +10,6 @@ const Modal = () => {
 
   return (
     <>
-      <button
-        className="bg-blue-500 text-white p-2 rounded-lg"
-        onClick={openModal}
-      >
-        Open Modal
-      </button>
       {modalOpen && (
         <div className="z-50 fixed bottom-0 inset-x-0 px-4 pb-4 sm:inset-0 sm:flex sm:items-center sm:justify-center">
           <div className="fixed inset-0 transition-opacity">
