@@ -31,17 +31,6 @@ const Masthead: React.FC = () => {
                 <source src = '/heart-on-pillow.webm' type="video/webm"/>
                 <source src="/heart-on-pillow.ogg" type="video/ogg" />
             </video>
-        {/* <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute w-full h-full object-cover"
-        >
-          <source src="/heartbeat4.mp4" type="video/mp4" />
-          <source src="/heartbeat4.webm" type="video/webm" />
-          <source src="/heartbeat4.ogg" type="video/ogg" />
-        </video> */}
         <div
           className={`flex-grow-0 pt-10 transition-opacity duration-1000 ${
             imageLoaded ? "opacity-100" : "opacity-0"
