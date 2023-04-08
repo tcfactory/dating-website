@@ -1,6 +1,8 @@
-import React from "react";
+import React, {useState} from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { signInWithGoogle } from "./firebase";
+import SignUpModal from "./signupmodal";
 
 const Header: React.FC = () => (
   <header className="h-1 min-h-full flex gap-8 items-center bg-black text-white p-10 min-w-full lg:min-w-[500px]">
@@ -35,9 +37,9 @@ const Header: React.FC = () => (
     </div>
     <div>or sign in with</div>
     <div>
-      <a
+      <button
         className="google-btn keychainify-checked"
-        href="https://api.meteorinteractivesignon.com/login/google?o=1&amp;p=Y3J1c2huZXh0ZG9vci5jb20%253D&amp;r=aHR0cHM6Ly93d3cuY3J1c2huZXh0ZG9vci5jb20vc3NvLWF1dGg%253D&amp;m=login"
+        onClick={signInWithGoogle}
       >
         <div className="google-icon-wrapper">
           <Image
@@ -47,7 +49,7 @@ const Header: React.FC = () => (
             height={40}
           />
         </div>
-      </a>
+      </button>
     </div>
   </header>
 );

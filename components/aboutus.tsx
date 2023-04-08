@@ -21,7 +21,7 @@ const AboutUs: React.FC = () => {
             <Member
               id="profile"
               name="Profile"
-              description="A well-thought-out profile creator"
+              description="Create a detailed profile in less than 5 minutes"
               width={1000}
               height={1000}
             />
@@ -56,7 +56,7 @@ const AboutUs: React.FC = () => {
             <Member
               id="video-sharing"
               name="Media sharing "
-              description="Share photos, videos and audio"
+              description="Share photos"
               width={1000}
               height={1000}
             />

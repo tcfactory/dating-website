@@ -6,7 +6,7 @@ function Pricing() {
   return (
     <div className="text-white px-10 py-5">
       <Image src="logo.svg" width={120} height={60} alt="logo" />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
