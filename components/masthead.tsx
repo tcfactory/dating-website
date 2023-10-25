@@ -22,9 +22,11 @@ const Masthead: React.FC = () => {
     <div
       ref={refContainer}
       className="content-container relative min-h-screen flex flex-col items-center justify-center top-0 -z-10"
-      style={{
-        // transform: `translateY(-${progress * 20}vh)`,
-      }}
+      style={
+        {
+          // transform: `translateY(-${progress * 20}vh)`,
+        }
+      }
     >
       {/* <video autoPlay loop muted playsInline className='absolute w-full h-full object-cover'>
                 <source src = '/heart-on-pillow.mp4' type="video/mp4"/>
@@ -33,8 +35,8 @@ const Masthead: React.FC = () => {
         </video> */}
       <div className="background relative">
         <Image
-          className="object-cover bg-blend-multiply"
-          src="/lingerie1.jpg"
+          className="object-cover"
+          src="/lingerie2.png"
           layout="fill"
           alt="background-girl"
         />
