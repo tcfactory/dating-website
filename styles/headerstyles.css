@@ -1,0 +1,20 @@
+.login-buttons {
+        display: none;
+    }
+
+
+@media (max-width: 765px) {
+    .header-input {
+        width: 160px;
+    }
+}
+
+@media (max-width: 649px) {
+    .login-buttons {
+        display: inline;
+    }
+
+    #login-container {
+        display: none;
+    }
+}
